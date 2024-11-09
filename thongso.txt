@@ -1,0 +1,30 @@
+- CPU: Intel(R) Core(TM) i7-4790 @3.60GHz
+- Ram: 8GB - Bus: 1600MHz
+
+
+Thời gian chạy thực nghiệm:
+
+- Adult
++ LR: 1:47:00 -> 106.9954618m
++ RF: 54:44
++ GB: 
++ SVM: 
++ NB: 45:34
++ TabTrans: 
+
+- COMPAS
++ LR: 04:16
++ RF: 04:02
++ GB: 08:43
++ SVM: 51:32
++ NB: 02:13
++ TabTrans: 21:58
+
+- German Credit
++ LR: 02:21
++ RF: 04:24
++ GB: 14:39
++ SVM: 04:29
++ NB: 02:11
++ TabTrans: 48:43
+
