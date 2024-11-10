@@ -9,7 +9,7 @@ import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 import tensorflow.compat.v1 as tf
 
-tf.disable_eager_execution()
+# tf.disable_eager_execution()
 tf.logging.set_verbosity(tf.logging.ERROR)
 import seaborn as sns
 import random
