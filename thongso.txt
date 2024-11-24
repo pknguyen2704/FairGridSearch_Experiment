@@ -8,7 +8,7 @@ Thời gian chạy thực nghiệm:
 + LR: 1:47:00 -> 106.9954618m
 + RF: 54:44
 + GB: 3:37:09
-+ SVM: 
++ SVM: 7:21:10:05
 + NB: 45:34
 + TabTrans: 14:44:00
 
@@ -28,3 +28,11 @@ Thời gian chạy thực nghiệm:
 + NB: 02:11
 + TabTrans: 48:43
 
+Thuc nghiem mo rong
+- Bank Marketing
++ LR: 02:21
++ RF: 04:24
++ GB: 14:39
++ SVM: 04:29
++ NB: 02:11
++ TabTrans: 48:43
