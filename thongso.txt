@@ -30,9 +30,9 @@ Thời gian chạy thực nghiệm:
 
 Thuc nghiem mo rong
 - Bank Marketing
-+ LR: 02:21
-+ RF: 04:24
-+ GB: 14:39
-+ SVM: 04:29
-+ NB: 02:11
-+ TabTrans: 48:43
++ LR: 49:48
++ RF: 34:12
++ GB: 7:04:31
++ SVM: 
++ NB: 25:25
++ TabTrans: 14:06:31
