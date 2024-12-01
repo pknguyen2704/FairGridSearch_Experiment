@@ -180,7 +180,7 @@ def plot_behaviour_analysis(diff_degree, data_name, category='metrics', caption=
                     # weight='bold',
                     fontsize=8)
     # save plot
-    filename = caption.split()[2]+'_'+caption.split()[3] + '_'+caption.split()[4] + '_'+category
+    filename = caption.split()[0]+'_'+caption.split()[1] + '_'+caption.split()[2] + '_'+category
     plt.savefig('./Result_Plots/'+data_name+'_'+filename+'.png', bbox_inches='tight')
     
 
