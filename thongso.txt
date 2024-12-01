@@ -2,8 +2,7 @@
 - Ram: 8GB - Bus: 1600MHz
 
 
-Thời gian chạy thực nghiệm:
-
+Thời gian chạy thực nghiệm trên bộ dữ liệu của các tác giả
 - Adult
 + LR: 1:47:00 -> 106.9954618m
 + RF: 54:44
@@ -28,11 +27,19 @@ Thời gian chạy thực nghiệm:
 + NB: 02:11
 + TabTrans: 48:43
 
-Thuc nghiem mo rong
-- Bank Marketing
-+ LR: 49:48
-+ RF: 34:12
-+ GB: 7:04:31
-+ SVM: 
-+ NB: 25:25
-+ TabTrans: 14:06:31
+Thời gian chạy các thực nghiệm mở rộng
+- StudentsPerformance
++ LR: 03:48
++ RF: 01:21
++ GB: 04:21
++ SVM: 01:42
++ NB: 01:02
++ TabTrans: 08:59
+
+- Bank_Customer_Churn_Prediction
++ LR: 06:39
++ RF: 06:24
++ GB: 1:13:39
++ SVM: 1:43:07
++ NB: 03:43
++ TabTrans: 32:41

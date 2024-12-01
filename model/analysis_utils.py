@@ -125,7 +125,7 @@ def plot_behaviour_analysis(diff_degree, data_name, category='metrics', caption=
         table = table[['RW','LFR_PRE','LFR_IN','AD','EGR','ROC','CEO','RW+ROC','RW+CEO']]
 
     # table.index = ['Increase or no significance', 'Decrease (small)', 'Decrease (medium)', 'Decrease (large)']
-    table.index = ['N or (+)',  '(-) Small', '(-) Medium', '(-) Large']
+    table.index = ['Không (-) hoặc (+)',  '(-) Nhỏ', '(-) Trung bình', '(-) Lớn']
 
     font_color = '#525252'
     # csfont = {'fontname':'Georgia'} # title font
@@ -149,7 +149,7 @@ def plot_behaviour_analysis(diff_degree, data_name, category='metrics', caption=
         label.set_fontsize(10)
     plt.xticks(rotation=0, color=font_color)
     plt.yticks(color=font_color)
-    plt.ylabel('Proportions of Scenarios')
+    plt.ylabel('Tỷ lệ các kịch bản')
 
     # 4. Add legend    
     legend = plt.legend(

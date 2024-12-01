@@ -1,5 +1,10 @@
-# FairGridSearch: A Framework to Compare Fairness-Enhancing Models
+# FairGridSearch: Một khung so sánh các mô hình học nâng cao tính công bằng
+Bài báo nhóm thực hiện phân tích có tên: “FairGridSearch: A Framework for
+Model Fairness Optimization in Binary Classification” (tạm dịch: FairGridSearch:
+Một khung làm việc tối ưu hóa tính công bằng trong phân loại nhị phân), được đăng
+trên trang web arXiv “https://arxiv.org/abs/2401.02183 ” công bố ngày 26/10/2023
+trong danh mục Khoa học máy tính
 
-Machine learning (ML) models are being increasingly used in critical decision-making applications. However, these models are susceptible to replicating or even amplifying bias present in real-world data. In the relevant literature, a wide range of bias mitigation methods and base estimators exist, but selecting the optimal model for a particular dataset or application remains challenging. 
-This paper proposes a novel framework, called FairGridSearch, to compare fairness-enhancing models. The framework enables experimentation with models using various parameter combinations and subsequently recommends the best model. The study also addresses four research questions related to metrics, base estimator, classification threshold, and accuracy-fairness trade-off by applying FairGridSearch to three popular datasets Adult, COMPAS, and German Credit.
-The results show that the choice of accuracy and fairness metric can significantly impact the evaluation of the model. Additionally, different base estimators and classification threshold values also affect the effectiveness of bias mitigation methods and fairness stability respectively, but the effects are not consistent across all datasets. Furthermore, the study found that there is no clear trade-off between accuracy and fairness for the datasets experimented in this study. Given findings from the choice of base estimator and classification threshold, it is recommended for future studies on fairness in machine learning to encompass a broader range of factors when building fair models, beyond bias mitigation methods alone.
+Nhóm sinh viên thực hiện việc thực nghiệm lại các thí nghiệm mà nhóm tác giả đã thực hiện, đồng thời bổ sung và triển khai thực nghiệm trên hai bộ dữ liệu khác để xem xét các yếu tố tác động đến tính công bằng.
+
+Thực hiện: Phùng Khôi Nguyên (@Andrew), Hoàng Đình Hoàn, Nguyễn Duy Nguyên.
